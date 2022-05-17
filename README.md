@@ -40,4 +40,5 @@ reseting the score of the game DELIVERED
 
 
 
-A Youtube-link to a demonstration of the app (less than 3 min)
+Presentation Youtube-link
+https://youtu.be/2K8ckw1BBNQ
