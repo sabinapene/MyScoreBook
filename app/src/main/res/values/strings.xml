@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ScoreBook</string>
+    <string name="Open">ScoreBook</string>
+    <string name="Close">ScoreBook</string>
+
+    <!--Make bold-->
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? <b>Sign Up</b> </string>
+    <string name="already_have_an_account_sign_in">Already have an account? <b>Sign in</b> </string>
+    <string name="change_your_password">Change your <b>password</b> </string>
+    <string name="change_your_email">Change your <b>email</b> </string>
+</resources>

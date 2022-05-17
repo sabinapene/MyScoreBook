@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="20dp"
+tools:context=".ActivityChangeGameName">
+
+    <TextView
+        android:id="@+id/textViewChangeEmail"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Email"
+        android:textAlignment="center"
+        android:textColor="#792959"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewChangeEmailCaption"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewChangeEmail"
+        android:text="Change your email here"
+        android:textAlignment="center"
+        android:textColor="#a23776" />
+
+
+    <!--New Password-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/newEmailTil"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/passwordTil">
+
+        <EditText
+            android:id="@+id/changeEmailEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#e8fffb"
+            android:hint="New Email"
+            android:inputType="textEmailAddress"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Old Password-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordTil"
+        android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/passwordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#e8fffb"
+            android:hint="Password"
+            android:inputType="textPassword"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--SignIn button-->
+    <Button
+        android:id="@+id/changeEmaildBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordTil"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#b63e85"
+        android:text="Change Email" />
+
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/rounded_layout">
+
+    <TextView
+        android:id="@+id/playertextview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textSize="20dp"
+        android:text="Player name and score"
+        android:textColor="#16caaa"
+        />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_margin="8dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@drawable/ic_baseline_add_24"
+        />
+
+
+    <EditText
+        android:id="@+id/playeredittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberSigned"
+        android:hint="0"
+        android:textColorHint="#72cbbb"
+        android:textColor="#72cbbb"
+        android:textSize="20dp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="20dp"
+tools:context=".ActivityChangeGameName">
+
+    <TextView
+        android:id="@+id/textViewChangeGameName"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Game Name"
+        android:textAlignment="center"
+        android:textColor="#792959"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/textViewChangeGameNameCaption"
+        style="@style/TextAppearance.MaterialComponents.Caption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewChangeGameName"
+        android:text="Change your game's name for more fun"
+        android:textAlignment="center"
+        android:textColor="#a23776"/>
+
+
+<!--Password-->
+<com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/newGameNameTil"
+    android:layout_width="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/changeGameNameNameEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="New Game Name"
+        android:inputType="text"
+        tools:ignore="SpeakableTextPresentCheck"
+        android:backgroundTint="#e8fffb"
+        />
+
+
+</com.google.android.material.textfield.TextInputLayout>
+
+<!--SignIn button-->
+    <Button
+        android:id="@+id/changeGameNameBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newGameNameTil"
+        android:layout_marginTop="10dp"
+        android:text="Change Name"
+        android:backgroundTint="#b63e85"/>
+
+
+</RelativeLayout>

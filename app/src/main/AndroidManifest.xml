@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.github.sabinapene.myscorebook">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/scorebookicon96"
+        android:label="Score Book"
+        android:roundIcon="@mipmap/scorebookicon96"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyScoreBook">
+        <activity
+            android:name=".ActivityChangeGameName"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityNewPlayerPage"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".ActivityProfile"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".ActivityNewGamePage"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".ActivityChangePassword"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".ActivityChangeEmail"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".ActivityScorePage"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".ActivitySignUp"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySignIn"
+            android:exported="true"
+            android:noHistory="false">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/resetScoreItem"
+        app:showAsAction="collapseActionView"
+        android:title="Reset score" />
+
+    <item
+        android:id="@+id/clearTableItem"
+        app:showAsAction="collapseActionView"
+        android:title="Clear table" />
+
+    <item
+        android:id="@+id/deleteGameItem"
+        app:showAsAction="collapseActionView"
+        android:title="Delete Game" />
+
+    <item
+        android:id="@+id/changeNameItem"
+        app:showAsAction="collapseActionView"
+        android:title="Change name" />
+
+</menu>

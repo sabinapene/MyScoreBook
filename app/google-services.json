@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "189847832427",
+    "firebase_url": "https://gadsfdsf-default-rtdb.firebaseio.com",
+    "project_id": "gadsfdsf",
+    "storage_bucket": "gadsfdsf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189847832427:android:5291e90e778bca345eee2e",
+        "android_client_info": {
+          "package_name": "com.github.sabinapene.myscorebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189847832427-f0smi05peggf07mk7i8lj59mlkbpj0kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu9hQeWrKlMXPuCxWmp9Mv5vNjyyy4utQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189847832427-f0smi05peggf07mk7i8lj59mlkbpj0kn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189847832427:android:93aedf1cc442ea295eee2e",
+        "android_client_info": {
+          "package_name": "com.github.sabinapene.myscorebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189847832427-f0smi05peggf07mk7i8lj59mlkbpj0kn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAu9hQeWrKlMXPuCxWmp9Mv5vNjyyy4utQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189847832427-f0smi05peggf07mk7i8lj59mlkbpj0kn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
